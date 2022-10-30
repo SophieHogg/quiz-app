@@ -1,0 +1,7 @@
+@use "./../assets/palette";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+.QuizContainer {
+    min-height: 80vh;
+    background-color: palette.$main-colour;
+}

@@ -1,0 +1,23 @@
+@use "./../assets/palette";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+.Question {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &__title {
+        margin: 0;
+        padding: 30px;
+    }
+    &__answers {
+        width: 400px;
+        padding: 10px;
+        font-size: 20px;
+        margin: 10px;
+        &:hover {
+            cursor: pointer;
+        }
+    }
+}

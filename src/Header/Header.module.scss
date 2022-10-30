@@ -1,0 +1,14 @@
+@use "./../assets/palette";
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap");
+
+.Header {
+    background-color: palette.$header-colour;
+    color: palette.$header-title;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+    font-family: "Oswald", sans-serif;
+    font-weight: 700;
+}
