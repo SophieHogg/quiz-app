@@ -4,4 +4,18 @@
 .QuizContainer {
     min-height: 80vh;
     background-color: palette.$main-colour;
+    &__next {
+        width: 200px;
+        height: 55px;
+        font-size: 20px;
+        background-color: palette.$next-colour;
+        border: 0;
+        border-radius: 10px;
+        color: palette.$font-colour;
+        margin-top: 40px;
+        cursor: pointer;
+        &:hover {
+            background-color: palette.$next-hover-colour;
+        }
+    }
 }

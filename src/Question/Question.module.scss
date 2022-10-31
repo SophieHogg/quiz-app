@@ -16,8 +16,12 @@
         padding: 10px;
         font-size: 20px;
         margin: 10px;
+        border: 0;
+        border-radius: 10px;
+        background-color: palette.$question-colour;
         &:hover {
             cursor: pointer;
+            background-color: palette.$question-hover-colour;
         }
     }
 }
